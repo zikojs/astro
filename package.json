@@ -1,6 +1,6 @@
 {
   "name": "ziko-lucide",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -28,14 +28,15 @@
   "license": "MIT",
   "author": "zakaria elalaoui",
   "type": "module",
-  "main": "src/index.js",
+  "main": "./generated-src/index.js",
+  "module": "./generated-src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node ./scripts/generate.js"
   },
   "dependencies": {
-    "create-vite": "^9.0.3",
-    "lucide": "^1.0.1",
-    "ziko": "^1.0.0"
+    "create-vite": "^9.1.2",
+    "lucide": "^1.30.0",
+    "ziko": "^1.8.0"
   }
 }
