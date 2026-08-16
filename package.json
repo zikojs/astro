@@ -1,6 +1,6 @@
 {
-  "name": "ziko-lucide",
-  "version": "1.0.2",
+  "name": "@zikojs/lucide",
+  "version": "0.1.0",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -13,6 +13,9 @@
     "package.json",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./generated-src/index.js",
     "./*": "./generated-src/icons/*.js"
