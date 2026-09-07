@@ -1,4 +1,3 @@
-// import { isAsync } from "ziko-server/utils"
 export default function (wrapper) {
     return (Component, props, { default: children, ...slotted }, {client}) => {
         // if (!wrapper.hasAttribute("ssr")){

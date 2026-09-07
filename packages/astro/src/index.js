@@ -2,14 +2,14 @@ const astroZikojs = (options = {}) => {
   const noExternal = options.noExternal || []
 
   return {
-    name: "astro-zikojs",
+    name: "@zikojs/astro",
 
     hooks: {
       "astro:config:setup": async ({ addRenderer, updateConfig, config }) => {
         
         // 1. Register renderer
         addRenderer({
-          name: "astro-zikojs",
+          name: "@zikojs/astro",
           serverEntrypoint: "@zikojs/astro/server",
           clientEntrypoint: "@zikojs/astro/client",
         })

@@ -1,11 +1,11 @@
 import { renderToString } from "@zikojs/server/server-only-utils"
-import { isAsync } from "ziko/internal-utils/checkers"
+import { is_async } from "ziko/internal-utils/checkers"
 function check(Component, attributes) {
     if (typeof Component !== "function") return false;
 	return true
 }
 async function renderToStaticMarkup(Component, props, { default: children, ...slotted }, metadata) {
-    const UI = isAsync(Component) ? await Component(props) : Component(props)
+    const UI = is_async(Component) ? await Component(props) : Component(props).useClient()
     const html = renderToString(UI)
     console.log({metadata})
     return { 
