@@ -1,5 +1,5 @@
-import { renderToString } from "ziko-server/server-only-utils"
-import { isAsync } from "ziko-server/utils"
+import { renderToString } from "@zikojs/server/server-only-utils"
+import { isAsync } from "ziko/internal-utils/checkers"
 function check(Component, attributes) {
     if (typeof Component !== "function") return false;
 	return true

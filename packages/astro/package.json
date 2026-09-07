@@ -1,13 +1,12 @@
 {
   "name": "@zikojs/astro",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Use Zikojs components within Astro",
   "keywords": [
     "astro-integration",
     "astro-component",
     "renderer",
-    "zikojs",
-    "ziko"
+    "zikojs"
   ],
   "license": "MIT",
   "author": "zakaria elalaoui",
@@ -25,9 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@zikojs/server": "^0.1.0",
-    "ziko": "catalog:",
-    "ziko-server": "^0.21.0"
+    "@zikojs/server": "^0.6.0",
+    "ziko": "catalog:"
   },
   "repository": {
     "type": "git",
