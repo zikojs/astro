@@ -1,45 +1,20 @@
 {
-  "name": "@zikojs/lucide",
-  "version": "0.1.0",
-  "description": "Lucide Icons for ZikoJs",
-  "keywords": [
-    "zikojs",
-    "lucide",
-    "icons",
-    "svg"
-  ],
-  "files": [
-    "generated-src",
-    "package.json",
-    "README.md"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "exports": {
-    ".": "./generated-src/index.js",
-    "./*": "./generated-src/icons/*.js"
-  },
-  "homepage": "https://github.com/zakarialaoui10/ziko-lucide#readme",
-  "bugs": {
-    "url": "https://github.com/zakarialaoui10/ziko-lucide/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zakarialaoui10/ziko-lucide.git"
-  },
-  "license": "MIT",
-  "author": "zakaria elalaoui",
-  "type": "module",
-  "main": "./generated-src/index.js",
-  "module": "./generated-src/index.js",
+  "name": "@zikojs/astro-root",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node ./scripts/generate.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "create-vite": "^9.1.2",
-    "lucide": "^1.30.0",
-    "ziko": "^1.8.0"
-  }
+  "keywords": [],
+  "author": "zakaria elaloui",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.24.0",
+  "type": "module"
 }
