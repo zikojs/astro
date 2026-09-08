@@ -206,16 +206,16 @@ settings:
 catalogs:
   default:
     ziko:
-      specifier: ^2.0.0-beta.8
-      version: 2.0.0-beta.8
+      specifier: ^2.0.0-beta.9
+      version: 2.0.0-beta.9
 
 importers:
 
   .:
     dependencies:
       ziko:
-        specifier: 2.0.0-beta.8
-        version: 2.0.0-beta.8
+        specifier: 2.0.0-beta.9
+        version: 2.0.0-beta.9
 
   demo:
     dependencies:
@@ -233,7 +233,7 @@ importers:
         version: 0.6.1(esbuild@0.28.2)
       ziko:
         specifier: 'catalog:'
-        version: 2.0.0-beta.8
+        version: 2.0.0-beta.9
 
 packages:
 
@@ -1011,8 +1011,8 @@ packages:
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
 
-  bidi-js@1.0.3:
-    resolution: {integrity: sha512-RKshQI1R3YQ+n9YJz2QQ147P66ELpa1FQEg20Dk8oW9t2KgLbpDLLp9aGZ7y8WHSshDknG0bknqGw5/tyCs5tw==}
+  bidi-js@1.1.0:
+    resolution: {integrity: sha512-fX1Onk0tdVPC7obPWB5EbJ1z7NVhLq4m2xZLq2YXBkxzMXIGRpNMU88n0EPgWseKl12J7zXs7qrDxPK4sRs2fg==}
 
   body-parser@2.3.0:
     resolution: {integrity: sha512-2cGmJupaNgg+QUwVLAucDuWuoMZ6EX9iHDRswZ5lsNYEmwPaRknMPCLZz07yTzVq/83p4o/wzbDZbBrTvGGTIw==}
@@ -2110,8 +2110,8 @@ packages:
     resolution: {integrity: sha512-4LCcse/U2MHZ63HAJVE+v71o7yOdIe4cZ70Wpf8D/IyjDKYQLV5GD46B+hSTjJsvV5PztjvHoU580EftxjDZFQ==}
     engines: {node: '>=12.20'}
 
-  ziko@2.0.0-beta.8:
-    resolution: {integrity: sha512-ufLViNT0MOl1lRNEJfrnAGRngatatlC+L0XurGvKGNDwDxmtEXaGwtpBpStZJpKWDlxtRjSRC9oQKleze6Ct4Q==}
+  ziko@2.0.0-beta.9:
+    resolution: {integrity: sha512-x7bQ/rwJinfk7edFfe2Kslw4F8fkhaDLOLcWDxEGl9dhQFCkEmOl51oGQIyES8BxU1fP4iZkts6szfLSE716tw==}
 
   zod@4.5.4:
     resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
@@ -2131,7 +2131,7 @@ snapshots:
 
   '@asamuzakjp/dom-selector@8.3.2':
     dependencies:
-      bidi-js: 1.0.3
+      bidi-js: 1.1.0
       css-tree: 3.2.1
       is-potential-custom-element-name: 1.0.1
       lru-cache: 11.5.2
@@ -2666,13 +2666,13 @@ snapshots:
   '@zikojs/express@0.1.1':
     dependencies:
       express: 5.2.1
-      ziko: 2.0.0-beta.8
+      ziko: 2.0.0-beta.9
     transitivePeerDependencies:
       - supports-color
 
   '@zikojs/http@0.1.1':
     dependencies:
-      ziko: 2.0.0-beta.8
+      ziko: 2.0.0-beta.9
 
   '@zikojs/server@0.6.1(esbuild@0.28.2)':
     dependencies:
@@ -2684,7 +2684,7 @@ snapshots:
       jsdom: 30.0.1
       sirv: 3.0.2
       vite: 8.2.2(esbuild@0.28.2)
-      ziko: 2.0.0-beta.8
+      ziko: 2.0.0-beta.9
     transitivePeerDependencies:
       - '@noble/hashes'
       - '@types/node'
@@ -2815,7 +2815,7 @@ snapshots:
 
   bail@2.0.2: {}
 
-  bidi-js@1.0.3:
+  bidi-js@1.1.0:
     dependencies:
       require-from-string: 2.0.2
 
@@ -3912,7 +3912,7 @@ snapshots:
 
   yocto-queue@1.2.2: {}
 
-  ziko@2.0.0-beta.8: {}
+  ziko@2.0.0-beta.9: {}
 
   zod@4.5.4: {}
 

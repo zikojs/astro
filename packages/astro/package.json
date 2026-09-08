@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/astro",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Use Zikojs components within Astro",
   "keywords": [
     "astro-integration",
